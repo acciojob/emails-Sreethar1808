@@ -106,7 +106,7 @@ public class Gmail extends Email {
 
     public int getTrashSize(){
         // Return number of mails in Trash
-        return recieved.size();
+        return trash.size();
     }
 
     public void emptyTrash(){
